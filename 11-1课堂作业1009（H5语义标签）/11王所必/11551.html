@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>携程</title>
+    <style type="text/css">
+     div,
+        h2 {
+            margin: 0;
+            padding: 0;
+        }
+    .mod {
+        height: 36px;
+         border-bottom: 2px blue solid;
+        text-align: left;
+    }
+    .mod .title {
+    font: 16px/26px "Microsoft YaHei", "SimHei", SimSun, Tahoma, Verdana, Arial, sans-serif;
+    }
+    .mod .title .current, .title span:hover {
+    color: #06c;
+    cursor: default;
+    }
+    .mod .title span {
+         position: relative;
+         bottom: -7px;
+         float: left;
+         height: 36px;
+         line-height: 30px;
+         columns: #333;
+         margin-right: 30px;
+        cursor: pointer;
+    }   
+    .mod .title .current i {
+            display: inline-block;
+        }
+        .mod .title i {
+            position: absolute;
+            left: 50%;
+            margin-left: 500px;
+            bottom: 7px;
+            display: none;
+            border-bottom: 6px solid #3983e5;
+            border-top: 0 none;
+            border-left: 6px solid transparent;
+            border-right: 6px solid transparent;
+        }
+        
+        .mod .label-en {
+            position: absolute;
+            top: -8px;
+            left: 20px;
+            display: inline-block;
+            background-color: orange;
+            color: #fff;
+            font-weight: normal;
+            padding: 0 2px;
+            font-size: 2px;
+            line-height: 16px;
+
+        }
+        .mod .triangle {
+            position: absolute;
+            z-index: 1;
+            top: 18px;
+            right: 0;
+            display: inline-block;
+            border-width: 3px;
+            border-style: solid;
+            border-color:orange transparent transparent orange;
+        }
+    </style>
+    <link rel="stylesheet" href="my.css">
+
+</head>
+<body>
+<div class="mod">
+        <h2 class="title">
+          <span class="current" idx="999" dcity="4">热门<i></i></span>
+          <span class="">特卖汇<i></i></span>
+          <span >出境游<i></i></span>
+          <span >境内游<i></i></span>
+          <span >周边游<i></i></span>
+          <span >邮轮<i></i></span>
+          <span >门票<i></i></span>
+          <span >周边游<i></i><b class="label-en"><em>NEW</em><em class="triangle"></em></b></span>
+          <span ><a href="http://www.hhtravel.com/?=ctriptag#ctm_ref=ssc_hp_sni_top_txt_9_blank">高端游</a></span>
+         
+          </p>
+        </h2>
+    </div>
+    <div class=" yi-bd">
+            <div class="entran">
+                <dl class="keyword">
+                    <dt>户外活动</dt>
+                    <dd>
+                        <span class="entrance">
+                            徒步登山
+                        </span>
+                        <span class="entrance">
+                            潜水
+                        </span>
+                        <span class="entrance">
+                            高尔夫
+                        </span>
+                    </dd>
+                </dl>
+                <dl class="keyword">
+                    <dt>人文探索</dt>
+                    <dd>
+                            <span class="entrance">
+                                深度摄影
+                            </span>
+                            <span class="entrance">
+                                越野自驾
+                            </span>
+                            <span class="entrance">
+                            极地探索
+                    </dd>
+                </dl>
+                 </div>
+            </div>
+</div>
+</body>
+</html>

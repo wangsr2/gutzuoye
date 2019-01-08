@@ -1,0 +1,16 @@
+h1{font-size:24px; color:#03C; text-align:center; font-family:"宋体";} 
+p{text-align:center; color:#6C9; font-style:italic;}
+
+
+.two{
+   font-size: 40px;
+    color: red;
+    line-height: initial;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;  
+}
+#one{
+    color: blueviolet; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}

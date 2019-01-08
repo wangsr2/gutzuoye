@@ -1,0 +1,28 @@
+*{margin:0; padding:0;border:0; background:none;}
+body{font-family:"微软雅黑";font-size:16px;}
+.yy_type{
+    margin: 0;
+    padding: 0;
+    font: left;
+    color:black;
+    background-color: aliceblue;
+     }
+    .entran dd{
+        margin-left: -10px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        position: relative;
+        zoom: 1;
+    }
+    .entran .entrance{
+        position: relative;
+        float: left;
+        display: block;
+        border-left: 1px solid #ececec;
+        padding: 0 10px;
+        line-height: 18px;
+        height: 18px;
+        margin: 7px 0;
+        *margin: 8px 0;
+    }
